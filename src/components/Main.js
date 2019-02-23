@@ -237,8 +237,11 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <div className="project-container">
             <div className="placeholder-col">
-              <img src={work1} alt="thomsonreuters talentnet community" />
-              <div className="overlay" />
+              <a href="https://thomsonreuters.talentnet.community/login">
+                <img src={work1} alt="thomsonreuters talentnet community" />
+
+                <div className="overlay" />
+              </a>
               <strong>Community Verison</strong>
               <p>
                 Contingent workforce self-sourcing solutions that optimize
@@ -247,8 +250,13 @@ class Main extends React.Component {
             </div>
 
             <div className="placeholder-col">
-              <img src={work2} alt="bench-thomsonreuters talentnet community" />
-              <div className="overlay" />
+              <a href="https://bench-thomsonreuters.talentnet.community">
+                <img
+                  src={work2}
+                  alt="bench-thomsonreuters talentnet community"
+                />
+                <div className="overlay" />
+              </a>
               <strong>Recuriter Verison</strong>
               <p>
                 Contingent workforce self-sourcing solutions that optimize
@@ -256,11 +264,11 @@ class Main extends React.Component {
               </p>
             </div>
             <div className="placeholder-col">
-              <img src={work3} alt="Off-road blog" />
-              <div className="overlay">
-                <div className="text" />
-              </div>
-              <strong>Off-road blog</strong>
+              <a href="https://www.off-road.com/blog/">
+                <img src={work3} alt="Off-road blog" />
+                <div className="overlay" />
+              </a>
+              <strong>Off-road Blog</strong>
               <p>
                 A site dedicated to Off-Road Reviews, Racing, Parts, ATVs, UTVs,
                 4x4s, Trucks, Forums, Blogs and more.

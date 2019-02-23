@@ -104,6 +104,9 @@
         width: 170px;
         margin: 5px;
         position: relative;
+        a {
+          border: none;
+        }
         strong {
           display: flex;
           justify-content: center;
