@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/me.png'
-import sample from '../images/sample.png'
 
 import work1 from '../images/pic1.png'
 import work2 from '../images/pic2.png'
