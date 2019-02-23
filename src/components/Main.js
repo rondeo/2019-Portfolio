@@ -252,18 +252,29 @@ class Main extends React.Component {
           <p>
             Have a question or want to work together? Feel free to contact me.
           </p>
-          <form method="post" netlify>
+          <form method="post" name="contact" action="/submission/" netlify>
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" placeholder="John Doe" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="example@mail.com"
+              />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" />
+              <textarea
+                type="text"
+                name="message"
+                id="message"
+                rows="4"
+                placeholder="Enter your message"
+              />
             </div>
             <ul className="actions">
               <li>
