@@ -288,6 +288,7 @@ class Main extends React.Component {
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             onSubmit={this.handleSubmit}
+            data-netlify-recaptcha="true"
           >
             {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
             <input type="hidden" name="form-name" value="contact" />
@@ -329,6 +330,8 @@ class Main extends React.Component {
                 onChange={this.handleChange}
               />
             </div>
+            <div data-netlify-recaptcha="true" />
+
             <ul className="actions">
               <li>
                 <input type="submit" className="special" />
