@@ -10,13 +10,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'mohamed-sassi-portfoilo',
+        short_name: 'portfoilo',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/images/icon.png', // This path is relative to the root of the site.
+        crossOrigin: `use-credentials`,
       },
     },
     'gatsby-plugin-sass',

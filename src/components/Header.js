@@ -1,11 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import Typewriter from "./Scripts/Typewriter";
+import PropTypes from "prop-types";
 
 const Header = props => (
-  <header id="header" style={props.timeout ? { display: 'none' } : {}}>
+  <header id="header" style={props.timeout ? { display: "none" } : {}}>
     <div className="content">
       <div className="inner">
-        <h1>MOHAMED SASSI</h1>
+        <Typewriter className="hero-title" text="MOHAMED SASSI" />
         <p>
           FRONTEND DEVELOPER & CREATIVE UI DESIGNER
           <br /> INVOLVING WITH LATEST WEB DESIGN AND TECHNOLOGIES
@@ -15,53 +16,58 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <a
-            href="javascript:;"
+          <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle("intro");
             }}
           >
             Intro
-          </a>
+          </button>
         </li>
         <li>
-          <a
-            href="javascript:;"
+          <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle("work");
             }}
           >
             Work
-          </a>
+          </button>
         </li>
         <li>
-          <a
-            href="javascript:;"
+          <button
             onClick={() => {
-              props.onOpenArticle('resume')
+              props.onOpenArticle("freelance");
+            }}
+          >
+            Freelance
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle("resume");
             }}
           >
             Resume
-          </a>
+          </button>
         </li>
         <li>
-          <a
-            href="javascript:;"
+          <button
             onClick={() => {
-              props.onOpenArticle('contact')
+              props.onOpenArticle("contact");
             }}
           >
             Contact
-          </a>
+          </button>
         </li>
       </ul>
     </nav>
   </header>
-)
+);
 
 Header.propTypes = {
   onOpenArticle: PropTypes.func,
-  timeout: PropTypes.bool,
-}
+  timeout: PropTypes.bool
+};
 
-export default Header
+export default Header;
