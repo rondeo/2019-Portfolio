@@ -43,9 +43,9 @@ class ProjectCard extends React.PureComponent {
 
     return (
       <div className="project-card">
-        <img className="project-image" src={image} />
+        <img className="project-image" src={image} alt=""/>
         <div className="project-content">
-          <div class="info">
+          <div className="info">
             <h3>{title}</h3>
             <ProjectLinks links={links} />
           </div>
