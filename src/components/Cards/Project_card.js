@@ -1,5 +1,5 @@
 import React from 'react';
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class ProjectSkill extends React.PureComponent {
   render() {
@@ -30,7 +30,7 @@ class ProjectLinks extends React.PureComponent {
           target="_blank"
           className="project-link"
         >
-          Live Demo
+          Live Demo <FontAwesomeIcon icon="external-link-alt" />
         </a>
       </div>
     );
@@ -43,7 +43,7 @@ class ProjectCard extends React.PureComponent {
 
     return (
       <div className="project-card">
-        <img className="project-image" src={image} alt=""/>
+        <img className="project-image" src={image} />
         <div className="project-content">
           <div className="info">
             <h3>{title}</h3>

@@ -4,6 +4,7 @@ import Intro from './Links/Intro'
 import Resume from './Links/Resume'
 import Work from './Links/Work'
 import Contact from './Links/Contact'
+import '../fontawesome'
 
 class Main extends React.Component {
   constructor(props) {

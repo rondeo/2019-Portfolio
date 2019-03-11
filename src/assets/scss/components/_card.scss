@@ -39,7 +39,6 @@
         .project-skills {
             display: flex;
             flex-wrap: wrap;
-            // justify-content: flex-start;
 
             .project-skill {
                 border-radius: 20px;
@@ -68,6 +67,7 @@
             box-sizing: border-box;
             background: #005c89;
             color: #fff;
+            border: 0;
         }
     }
 
