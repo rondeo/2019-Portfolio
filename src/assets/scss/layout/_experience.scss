@@ -1,0 +1,36 @@
+.resume-card {
+    margin: 0 0 2rem;
+
+    .resume-info {
+        span {
+            color: #b2b2b2;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 1.5;
+            margin: 0 0 1rem;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+        }
+
+        h3 {
+            margin: 0;
+            color: #005c89;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+    }
+
+    .resume-detail {
+        p {
+            color: #b2b2b2;
+            text-align: justify;
+            hyphens: auto;
+            line-height: 1.7;
+
+        }
+    }
+}

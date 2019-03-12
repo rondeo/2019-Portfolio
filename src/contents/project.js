@@ -3,12 +3,10 @@ import bench from '../images/pic2.png'
 import ofb from '../images/pic3.png'
 
 
-export default [
-  {
+export default [{
     title: 'Community Version',
-    description:
-      'Contingent workforce self-sourcing solutions that optimize existing VMS data.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MobX','HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MobX'],
+    description: 'Contingent workforce self-sourcing solutions that optimize existing VMS data.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MobX'],
     image: community,
     links: {
       preview: 'https://thomsonreuters.talentnet.community/login',
@@ -16,8 +14,7 @@ export default [
   },
   {
     title: 'Recuriter Version',
-    description:
-      'Contingent workforce self-sourcing solutions that optimize existing VMS data.',
+    description: 'Contingent workforce self-sourcing solutions that optimize existing VMS data.',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MobX'],
     image: bench,
     links: {
@@ -26,9 +23,8 @@ export default [
   },
   {
     title: 'Off-road Blog',
-    description:
-      'A site dedicated to Off-Road Reviews, Racing, Parts, ATVs, UTVs, 4x4s, Trucks, Forums, Blogs and more.',
-    skills: [ 'Wordpress', 'PHP', 'HTML5', 'CSS3', 'Sass', 'JavaScript'],
+    description: 'A site dedicated to Off-Road Reviews, Racing, Parts, ATVs, UTVs, 4x4s, Trucks, Forums, Blogs and more.',
+    skills: ['Wordpress', 'PHP', 'HTML5', 'CSS3', 'Sass', 'JavaScript'],
     image: ofb,
     links: {
       preview: 'https://www.off-road.com/blog/',
