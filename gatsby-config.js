@@ -3,9 +3,9 @@ module.exports = {
     owner: "Mohamed Sassi",
     title: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
     description:
-      "Mohamed Sassi is a frontend developer, user experience researcher and designer living in Toronto, ON.",
+      "Mohamed Sassi is a frontend developer, user experience researcher and creative designer living in Toronto, ON.",
     url: "https://www.msassi.dev",
-    image: "src/images/icon.png",
+    image: "/images/icon.png",
     twitterUsername: "@Sassi360M"
   },
   plugins: [
