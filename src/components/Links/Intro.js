@@ -30,7 +30,7 @@ export default class Intro extends Component {
           to build a good user experience.I hope to develop my skills in
           frontend development, my knowledge of the Web, and become an honest
           asset to the business. As an individual, I 'm confident you'll find me
-          creative, funny and naturally passionate.I 'm a forward thinker, which
+          creative, funny and naturally passionate. I 'm a forward thinker, which
           others may find inspiring when working as a team.
         </p>
         <h3>What I do</h3>
