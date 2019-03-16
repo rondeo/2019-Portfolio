@@ -13,7 +13,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
-        short_name: "Mohamed Portfolio's",
+        short_name: "Mohamed Sassi",
         start_url: "/",
         theme_color: "#663399",
         display: `standalone`,
