@@ -15,7 +15,6 @@ module.exports = {
         name: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
         short_name: "Mohamed Sassi",
         start_url: "/",
-        background_color: "#ffffff",
         theme_color: "#663399",
         display: `standalone`,
         icon: "src/images/icon.png",
