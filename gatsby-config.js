@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     owner: "Mohamed Sassi",
-    title: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
+    title: "Frontend Developer & Creative UI Designer · Mohamed Sassi",
     description:
-      "Mohamed Sassi is a frontend developer, user experience researcher and creative designer living in Toronto, ON.",
+      "Mohamed Sassi is a front-end developer, UI researcher and creative designer living in Toronto, ON.",
     url: "https://www.msassi.dev",
     image: "/images/icon.png",
     twitterUsername: "@Sassi360M"
