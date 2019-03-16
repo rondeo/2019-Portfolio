@@ -49,7 +49,8 @@ export default class Intro extends Component {
         <h3>Skills and technologies</h3>
         <div className="skills">
           <ul>
-            <li>HTML5 & CSS3</li>f<li>JavaScript (ES6)</li>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6)</li>
             <li>jQuery</li>
             <li>React</li>
             <li>Vue</li>
