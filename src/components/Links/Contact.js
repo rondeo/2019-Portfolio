@@ -1,30 +1,32 @@
-import React, { Component } from 'react'
-import { navigate } from 'gatsby-link'
+import React, { Component } from "react";
+import { navigate } from "gatsby-link";
 
 function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
 }
+
 export default class Contact extends Component {
   handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
+    this.setState({ [e.target.name]: e.target.value });
+  };
 
   handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    e.preventDefault();
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
+        "form-name": form.getAttribute("name"),
+        ...this.state
+      })
     })
-      .then(() => navigate(form.getAttribute('action')))
-      .catch(error => alert(error))
-  }
+      .then(() => navigate(form.getAttribute("action")))
+      .catch(error => alert(error));
+  };
+
   render() {
     return (
       <div>
@@ -44,7 +46,7 @@ export default class Contact extends Component {
           <input type="hidden" name="form-name" value="contact" />
           <p hidden>
             <label>
-              Don’t fill this out:{' '}
+              Don’t fill this out:{" "}
               <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
@@ -91,6 +93,6 @@ export default class Contact extends Component {
           </ul>
         </form>
       </div>
-    )
+    );
   }
 }

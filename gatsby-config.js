@@ -1,26 +1,39 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mohamed Sassi Portfolio',
-    author: 'Mohamed Sassi',
+    owner: "Mohamed Sassi",
+    title: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
     description:
-      'Frontend Developer & Creative UI Designer Involving with latest web designing and technologies',
+      "Mohamed Sassi is a frontend developer, user experience researcher and designer living in Toronto, ON.",
+    url: "https://www.msassi.dev",
+    image: "src/images/icon.png",
+    twitterUsername: "@Sassi360M"
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'mohamed-sassi-portfoilo',
-        short_name: 'portfoilo',
-        start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/images/icon.png', // This path is relative to the root of the site.
-        crossOrigin: `use-credentials`,
-      },
+        name: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
+        short_name: "Mohamed Portfolio's",
+        start_url: "/",
+        theme_color: "#663399",
+        display: `standalone`,
+        icon: "src/images/icon.png",
+        include_favicon: true,
+        legacy: true,
+        crossOrigin: `use-credentials`
+      }
     },
-    'gatsby-plugin-sass',
-    'gatsby-plugin-offline',
-  ],
-}
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.msassi.dev/",
+        sitemap: "https://www.msassi.dev/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }]
+      }
+    },
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
+    "gatsby-plugin-offline",
+    "gatsby-plugin-twitter"
+  ]
+};

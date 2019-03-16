@@ -1,107 +1,110 @@
 .projects-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
+
+  .project-card {
+    display: flex;
+    align-items: center;
+    margin: 1.5em 0;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #b2b2b2;
+  }
+
+  .project-card:nth-last-child(1) {
+    border-bottom: 0;
+  }
+
+  .project-image {
+    max-width: 170px;
+    border-radius: 5px;
+  }
+
+  .project-content {
+    padding-left: 20px;
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        font-size: 1rem;
+        margin: 0;
+      }
+    }
+
+    p {
+      font-size: 15px;
+      margin: 12px 0 12px 0;
+      color: #b2b2b2;
+    }
+
+    .project-skills {
+      display: flex;
+      flex-wrap: wrap;
+
+      .project-skill {
+        border-radius: 20px;
+        border: solid 2px #005c89;
+        padding: 2px 5px;
+        font-size: 0.85em;
+        color: #ffffff;
+        margin: 0.3em 0.2em;
+      }
+    }
+
+    .project-link {
+      margin-right: 20px;
+      white-space: nowrap;
+      display: inline-block;
+      line-height: 26px;
+      padding: 0px 6px;
+      box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11),
+      0 1px 3px rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+      letter-spacing: 0.025em;
+      text-decoration: none;
+      transition: all 0.15s ease;
+      font-size: 0.9em;
+      font-weight: 600;
+      box-sizing: border-box;
+      background: #005c89;
+      color: #fff;
+      border: 0;
+    }
+  }
+
+  @include breakpoint(small) {
 
     .project-card {
-        display: flex;
-        align-items: center;
-        margin: 1.5em 0;
-        padding-bottom: 1.5em;
-        border-bottom: 1px solid #b2b2b2;
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: center
     }
 
     .project-image {
-        max-width: 170px;
-        border-radius: 5px;
+      margin-bottom: 1.5em;
     }
+
 
     .project-content {
-        padding-left: 20px;
+      padding: 0;
 
-        .info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
 
-            h3 {
-                font-size: 1rem;
-                margin: 0;
-            }
-        }
+      .info {
+        flex-direction: column;
 
-        p {
-            font-size: 15px;
-            margin: 12px 0 12px 0;
-            color: #b2b2b2;
-        }
-
-        .project-skills {
-            display: flex;
-            flex-wrap: wrap;
-
-            .project-skill {
-                border-radius: 20px;
-                border: solid 2px #005c89;
-                padding: 2px 5px;
-                font-size: 0.85em;
-                color: #ffffff;
-                margin: 0.3em 0.2em;
-            }
-        }
-
-        .project-link {
-            margin-right: 20px;
-            white-space: nowrap;
-            display: inline-block;
-            line-height: 26px;
-            padding: 0px 6px;
-            box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11),
-                0 1px 3px rgba(0, 0, 0, 0.08);
-            border-radius: 4px;
-            letter-spacing: 0.025em;
-            text-decoration: none;
-            transition: all 0.15s ease;
-            font-size: 0.9em;
-            font-weight: 600;
-            box-sizing: border-box;
-            background: #005c89;
-            color: #fff;
-            border: 0;
-        }
+      }
     }
 
-    @include breakpoint (small) {
+    .project-skills {
+      justify-content: center;
 
-        .project-card {
-            flex-wrap: wrap;
-            flex-direction: column;
-            text-align: center
-        }
-
-        .project-image {
-            margin-bottom: 1.5em;
-        }
-
-        .project-content {
-            padding: 0;
-
-
-            .info {
-                flex-direction: column;
-
-            }
-        }
-
-        .project-skills {
-            .project-skill {
-                justify-content: center;
-            }
-
-        }
-
-        .project-link {
-            margin: 1em 0 0 0;
-        }
     }
+
+    .project-link {
+      margin: 1em 0 0 0;
+    }
+  }
 }

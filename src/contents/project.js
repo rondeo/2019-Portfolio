@@ -1,33 +1,36 @@
-import community from '../images/pic1.png'
-import bench from '../images/pic2.png'
-import ofb from '../images/pic3.png'
+import community from "../images/pic1.png";
+import bench from "../images/pic2.png";
+import ofb from "../images/pic3.png";
 
-
-export default [{
-    title: 'Community Version',
-    description: 'Contingent workforce self-sourcing solutions that optimize existing VMS data.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MobX'],
+export default [
+  {
+    title: "Community Version",
+    description:
+      "Contingent workforce self-sourcing solutions that optimize existing VMS data.",
+    skills: ["HTML5", "CSS3", "JavaScript", "ES6", "ReactJS", "MobX"],
     image: community,
     links: {
-      preview: 'https://thomsonreuters.talentnet.community/login',
-    },
+      preview: "https://thomsonreuters.talentnet.community/login"
+    }
   },
   {
-    title: 'Recuriter Version',
-    description: 'Contingent workforce self-sourcing solutions that optimize existing VMS data.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MobX'],
+    title: "Recuriter Version",
+    description:
+      "Contingent workforce self-sourcing solutions that optimize existing VMS data.",
+    skills: ["HTML5", "CSS3", "JavaScript", "ES6", "ReactJS", "MobX"],
     image: bench,
     links: {
-      preview: 'https://thomsonreuters.talentnet.community/login',
-    },
+      preview: "https://thomsonreuters.talentnet.community/login"
+    }
   },
   {
-    title: 'Off-road Blog',
-    description: 'A site dedicated to Off-Road Reviews, Racing, Parts, ATVs, UTVs, 4x4s, Trucks, Forums, Blogs and more.',
-    skills: ['Wordpress', 'PHP', 'HTML5', 'CSS3', 'Sass', 'JavaScript'],
+    title: "Off-road Blog",
+    description:
+      "A site dedicated to Off-Road Reviews, Racing, Parts, ATVs, UTVs, 4x4s, Trucks, Forums, Blogs and more.",
+    skills: ["Wordpress", "PHP", "HTML5", "CSS3", "Sass", "JavaScript"],
     image: ofb,
     links: {
-      preview: 'https://www.off-road.com/blog/',
-    },
-  },
+      preview: "https://www.off-road.com/blog/"
+    }
+  }
 ];

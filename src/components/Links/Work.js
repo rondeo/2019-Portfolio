@@ -5,9 +5,12 @@ import projects from "../../contents/project";
 export default class Work extends Component {
   render() {
     return (
-      <div>        
+      <div>
         <h1 className="major">Work</h1>
-        <p>On this page you will find a handful of my favourite projects – both personal and commercial.</p>
+        <p>
+          On this page you will find a handful of my favourite projects – both
+          personal and commercial.
+        </p>
         <Projects projects={projects} />
       </div>
     );

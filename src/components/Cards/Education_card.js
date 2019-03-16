@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from "react";
 
 class EducationCard extends React.PureComponent {
   render() {
@@ -8,9 +7,13 @@ class EducationCard extends React.PureComponent {
     return (
       <div className="resume-card">
         <div className="resume-info">
-            <span>{start_date} - {end_date}</span>
-            <h3>{school} - {location}</h3>
-            <p>{degree}</p>
+          <span>
+            {start_date} - {end_date}
+          </span>
+          <h3>
+            {school} - {location}
+          </h3>
+          <p>{degree}</p>
         </div>
       </div>
     );

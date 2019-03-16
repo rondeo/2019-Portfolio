@@ -1,6 +1,6 @@
-import React from 'react'
-import Layout from '../components/layout'
-import { Link } from 'gatsby'
+import React from "react";
+import Layout from "../components/layout";
+import { Link } from "gatsby";
 
 const Submisson = () => (
   <Layout>
@@ -9,6 +9,6 @@ const Submisson = () => (
       Click <Link to="/">here</Link> to go back
     </p>
   </Layout>
-)
+);
 
-export default Submisson
+export default Submisson;

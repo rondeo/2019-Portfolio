@@ -1,19 +1,29 @@
-import React from 'react';
-
+import React from "react";
 
 class ExperienceCards extends React.PureComponent {
   render() {
-    const { start_date, end_date, job_title, location, position, description } = this.props;
+    const {
+      start_date,
+      end_date,
+      job_title,
+      location,
+      position,
+      description
+    } = this.props;
 
     return (
       <div className="resume-card">
         <div className="resume-info">
-            <span>{start_date} - {end_date}</span>
-            <h3>{job_title} - {location}</h3>
-            <p>{position}</p>
+          <span>
+            {start_date} - {end_date}
+          </span>
+          <h3>
+            {job_title} - {location}
+          </h3>
+          <p>{position}</p>
         </div>
         <div className="resume-detail">
-            <p dangerouslySetInnerHTML={{ __html: description }} />
+          <p dangerouslySetInnerHTML={{ __html: description }} />
         </div>
       </div>
     );
