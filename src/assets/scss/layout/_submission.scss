@@ -1,0 +1,13 @@
+.thanks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 90vh;
+
+  img {
+    width: 20%;
+    padding-bottom: 2em;
+  }
+}
