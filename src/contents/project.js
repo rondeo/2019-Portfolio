@@ -20,7 +20,7 @@ export default [
     skills: ["HTML5", "CSS3", "JavaScript", "ES6", "ReactJS", "MobX"],
     image: bench,
     links: {
-      preview: "https://thomsonreuters.talentnet.community/login"
+      preview: "https://bench-thomsonreuters.talentnet.community/"
     }
   },
   {
