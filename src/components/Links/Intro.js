@@ -5,7 +5,7 @@ export default class Intro extends Component {
   render() {
     return (
       <div>
-        <h1 className="major">Intro</h1>
+        <h2 className="major">Intro</h2>
         <span className="image main">
           <img src={pic01} alt=" Mohamed Sassi" />
           <div>

@@ -5,9 +5,9 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     owner: "Mohamed Sassi",
-    title: "Frontend Developer & Creative UI Designer · Mohamed Sassi",
+    title: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
     description:
-      "Mohamed Sassi is a front-end developer, UI researcher and creative designer living in Toronto, ON.",
+      "Front-end developer, UI researcher and Creative Designer living in Toronto, ON.",
     url: "https://www.msassi.dev",
     image: "/images/icon.png",
     twitterUsername: "@Sassi360M",

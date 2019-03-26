@@ -8,7 +8,7 @@ export default class Intro extends Component {
   render() {
     return (
       <div>
-        <h1 className="major">Resume</h1>
+        <h2 className="major">Resume</h2>
         <h3>Experience</h3>
         <Experience experience={ExperienceContent} />
         <h3>Education</h3>

@@ -33,8 +33,8 @@ class Typewriter extends React.Component {
   render() {
     return (
       <div className={this.props.className}>
-        {this.state.text}
-        <span>&nbsp;</span>
+        <h1>{this.state.text}
+        <span>&nbsp;</span></h1>
       </div>
     );
   }

@@ -6,7 +6,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        <h1 className="major">Contact</h1>
+        <h2 className="major">Contact</h2>
         <p>Have a question or want to work together? Feel free to contact me.</p>
 
         <form name="contact" method="post" action="/thanks" data-netlify="true" data-netlify-honeypot="bot-field">

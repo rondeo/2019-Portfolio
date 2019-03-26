@@ -6,7 +6,7 @@ export default class Work extends Component {
   render() {
     return (
       <div>
-        <h1 className="major">Work</h1>
+        <h2 className="major">Work</h2>
         <p>
           On this page you will find a handful of my favourite projects – both
           personal and commercial.
