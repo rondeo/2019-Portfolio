@@ -21,6 +21,8 @@ const SEO = ({
             siteUrl: url
             defaultImage: image
             twitterUsername
+            owner
+            keyword
           }
         }
       }
@@ -42,7 +44,9 @@ const SEO = ({
         title: title || defaultTitle,
         description: description || defaultDescription,
         image: `${siteUrl}${image || defaultImage}`,
-        url: `${siteUrl}${pathname || "/"}`
+        url: `${siteUrl}${pathname || "/"}`,
+        keyword: keyword,
+        owner: owner
       };
 
       return (
@@ -50,7 +54,6 @@ const SEO = ({
           <Helmet title={seo.title} defer={false}>
             <html lang="en" />
             <link rel="canonical" href={`${siteUrl}`} />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta property="og:title" content={seo.title} />
             <meta property="og:description" content={seo.description} />
             <meta property="og:url" content={siteUrl} />
@@ -58,8 +61,8 @@ const SEO = ({
             <meta property="og:locale" content="en" />
             <meta property="og:site_name" content={seo.title} />
             <meta property="og:image" content={seo.image} />
-            <meta name="author" content={owner} />
-            <meta name="keywords" content={keyword}/>
+            <meta name="author" content={seo.owner} />
+            <meta name="keywords" content={seo.keyword}/>
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
           </Helmet>
