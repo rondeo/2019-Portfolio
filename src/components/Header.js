@@ -6,11 +6,9 @@ const Header = props => (
   <header id="header" style={props.timeout ? { display: "none" } : {}}>
     <div className="content">
       <div className="inner">
-        <Typewriter className="hero-title" text="MOHAMED SASSI" />
-        <p>
-          FRONTEND DEVELOPER & CREATIVE UI DESIGNER
-          <br /> INVOLVING WITH LATEST WEB DESIGN AND TECHNOLOGIES
-        </p>
+        <h1><Typewriter className="hero-title" text="MOHAMED SASSI" /></h1>
+        <p>A Toronto Ui front-end developer who loves UI effects, <br/>
+        animation and dynamic user experience.</p>
       </div>
     </div>
     <nav>
