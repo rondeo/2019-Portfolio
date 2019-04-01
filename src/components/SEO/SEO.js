@@ -32,7 +32,9 @@ const SEO = ({
           defaultDescription,
           siteUrl,
           defaultImage,
-          twitterUsername
+          twitterUsername,
+          owner,
+          keyword,
         }
       }
     }) => {
@@ -49,11 +51,15 @@ const SEO = ({
             <html lang="en" />
             <link rel="canonical" href={`${siteUrl}`} />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta property="og:title" content={seo.title} />
+            <meta property="og:description" content={seo.description} />
             <meta property="og:url" content={siteUrl} />
             <meta property="og:type" content="website" />
             <meta property="og:locale" content="en" />
             <meta property="og:site_name" content={seo.title} />
             <meta property="og:image" content={seo.image} />
+            <meta name="author" content={owner} />
+            <meta name="keywords" content={keyword}/>
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
           </Helmet>

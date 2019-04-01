@@ -11,7 +11,32 @@ module.exports = {
     url: "https://www.msassi.dev",
     image: "/images/icon.png",
     twitterUsername: "@Sassi360M",
-    siteUrl: "https://www.msassi.dev"
+    siteUrl: "https://www.msassi.dev",
+    keyword: [
+      "website designer",
+      "frontend developer",
+      "hire a developer",
+      "javascript developer",
+      "front end developer profile",
+      "hiring freelance developer",
+      "freelance frontend developer for hire",
+      "freelance web designer toronto",
+      "hire web developer toronto",
+      "hire freelance web developer",
+      "freelance web developer jobs",
+      "hire web developer",
+      "freelance developers for hire",
+      "frontend developer toronto",
+      "react developer",
+      "web & UI designer",
+      "web designer	",
+      "freelance web developer job",
+      "freelance web developer wanted",
+      "website design toronto",
+      "toronto web design",
+      "web designers toronto",
+      "web agency toronto"
+    ],
   },
   plugins: [
     {
