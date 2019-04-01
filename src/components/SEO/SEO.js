@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import Twitter from "./twitter";
 
+
 const SEO = ({
   title = null,
   description = null,
@@ -44,7 +45,15 @@ const SEO = ({
 
       return (
         <>
-          <Helmet title={seo.title}>
+          <Helmet title={seo.title} defer={false}>
+            <html lang="en" />
+            <link rel="canonical" href={`${siteUrl}`} />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta property="og:url" content={siteUrl} />
+            <meta property="og:type" content="website" />
+            <meta property="og:locale" content="en" />
+            <meta property="og:site_name" content={seo.title} />
+            <meta property="og:image" content={seo.image} />
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
           </Helmet>

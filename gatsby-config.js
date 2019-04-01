@@ -5,9 +5,9 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     owner: "Mohamed Sassi",
-    title: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
+    title: "Mohamed Sassi · Creative UI Frontend Developer",
     description:
-      "Front-end developer, UI researcher and Creative Designer living in Toronto, ON.",
+      "A Creative UI Front-end  developer living in Toronto, ON.",
     url: "https://www.msassi.dev",
     image: "/images/icon.png",
     twitterUsername: "@Sassi360M",
@@ -17,11 +17,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Mohamed Sassi · Frontend Developer & Creative UI Designer",
+        name: "Mohamed Sassi · Creative UI Front-end Developer",
         short_name: "Sassi DEV",
         start_url: "/",
-        theme_color: "#663399",
-        background_color: "#663399",
+        theme_color: "#005c89",
+        background_color: "#005c89",
         display: `standalone`,
         icon: "src/images/icon.png",
         include_favicon: true,
