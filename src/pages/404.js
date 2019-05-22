@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../images/404.svg";
+import "../assets/scss/main.scss";
+
 
 const notFound = () => (
     <div className="error">
