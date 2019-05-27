@@ -15,8 +15,8 @@ export default class Intro extends Component {
             </p>
             <a
               className="resume-button"
-              href="https://drive.google.com/open?id=1q-edvQ-4-SPzK39zm01isTQyEHpqRyzq"
-              alt="resume button"
+              href="https://drive.google.com/file/d/1_Br4yCV02N29Uec2ovYfwChOvqgzoxQF/view?usp=sharing"
+              alt="resume"
             >
               Download My CV
             </a>
